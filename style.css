@@ -1,0 +1,54 @@
+.banner-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #004643;
+}
+
+.name {
+  color: #fffffe;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #05647e;
+}
+
+* {
+  border: thin rgb(251, 255, 0) solid;
+}
+.link a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.name {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  background-color: #60d5f9;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
